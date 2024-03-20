@@ -25,8 +25,12 @@ export default function Project({
   const [clicked, setClicked] = useState(false);
 
   return (
-    <div className="my-10 mx-5 inline-block w-96 rounded-md max-h-64">
-      <div className="group  relative rounded-md transition-all duration-500">
+    <div
+      className={`my-10 mx-5 inline-block w-96 rounded-md max-h-auto ${
+        clicked ? "pb-72" : ""
+      }`}
+    >
+      <div className="group relative rounded-md transition-all duration-500">
         <Link target="_blank" href={link ? link : "/"}>
           <Image
             src={img}
@@ -49,12 +53,14 @@ export default function Project({
           <h6 className="text-slate-400">{type}</h6>
         </div>
 
-        {clicked && <p className="pt-2">{description}</p>}
         <FontAwesomeIcon
           onClick={() => setClicked(!clicked)}
           className="max-w-3 cursor-pointer block ml-auto mr-0"
           icon={clicked ? faArrowUp : faArrowDown}
         />
+        {clicked && (
+          <p className={`pb-3 absolute text-gray-700`}>{description}</p>
+        )}
 
         {/* <FontAwesomeIcon icon={faArrowUp} /> */}
       </div>

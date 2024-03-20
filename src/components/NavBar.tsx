@@ -83,7 +83,7 @@ export default function Navbar(props: any) {
           </div>
 
           <ul className={` ml-36 navigation-menu `} style={{ margin: 0 }}>
-            <li >
+            <li>
               <Link href="#home" className="sub-menu-item">
                 Home
               </Link>

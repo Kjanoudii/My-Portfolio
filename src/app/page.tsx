@@ -28,7 +28,10 @@ export default function Home() {
       name: "Toy Market Trading",
       type: "NEXT.JS",
       link: "/",
-      description: `"description"`,
+      description: `ToyMarket Trading is a sleek and efficient website that demonstrates the power of Next.js and the versatility of Tailwind CSS. With clean code 
+      and simple design, this project showcases my proficiency in web development.
+      Through ToyMarket Trading, users experience seamless navigation and responsiveness across devices. Leveraging Next.js,
+       the website offers lightning-fast performance, while Tailwind CSS enhances its aesthetics with customizable design elements.`,
     },
 
     {
@@ -36,14 +39,30 @@ export default function Home() {
       name: "Chat Web-App",
       type: "REACT.JS",
       link: "https://chat-web-app15621.netlify.app/",
-      description: `"description"`,
+      description: `ChatApp is a dynamic and interactive
+       web application that highlights the capabilities of React.js and firebsse 
+       in creating engaging user experiences. This project serves as a showcase of
+        my expertise in web development using firebase. ChatApp allows users to engage in live chat
+         conversations sending of pictures , recording voice messages, demonstrating real-time updates and instant message delivery. With its sleek design and intuitive user interface, this project 
+        exemplifies my ability to create immersive web experiences using React.js.`,
     },
     {
       img: giftImg.src,
       name: "Gifting Oasis",
       type: "JS & BOOTSTRAP",
       link: "https://giftoasis.netlify.app/",
-      description: `"description"`,
+      description: `"The Gifting Oasis" epitomizes a modern and user-centric web 
+      application, showcasing the seamless integration of Bootstrap and Vanilla JavaScript. Designed to be a one-stop destination for gift seekers, this project radiates simplicity and elegance through its design and user interface.
+With its responsive layout and fluid navigation, "The Gifting Oasis" ensures a 
+delightful browsing experience across various devices. Leveraging Bootstrap's 
+robust framework, the website offers a blend of functionality and 
+aesthetics, allowing users to explore a diverse range of gifts across different 
+categories .
+This project underscores my proficiency in frontend development, highlighting my 
+ability to use Vanilla JavaScript to create dynamic and 
+interactive user experiences. 
+
+`,
     },
 
     {
@@ -51,7 +70,14 @@ export default function Home() {
       name: "Checklist",
       type: "REACT.JS",
       link: "https://check-list-app5484.netlify.app/",
-      description: `"description"`,
+      description: `"React Checklist" is a straightforward web application designed for task management. With its intuitive interface and simple design, this project streamlines the process of creating and organizing lists using React.js and Firestore database.
+Users can create new lists and add items to each list, facilitating efficient task tracking and management. 
+Utilizing Firestore database integration, "React Checklist" provides real-time synchronization of data, enabling users to access their lists and items across multiple devices seamlessly. This ensures that users can stay organized and productive, whether they are at home, work, or on the go.
+By showcasing "React Checklist," I aim to highlight my proficiency in leveraging React.js and Firestore to develop web applications. 
+
+
+
+`,
     },
   ];
   return (
@@ -75,7 +101,7 @@ export default function Home() {
           </span>
         </div>
       </div>
-      <section className="my-20 block lg:mx-auto lg:px-60">
+      <section className="my-20 lg:mx-auto lg:px-60">
         {projects.map((item, index) => {
           return (
             <Project
@@ -90,7 +116,7 @@ export default function Home() {
         })}
       </section>
 
-      <div className="text-center mt-16 text-slate-700 mb-20">
+      <div className="text-center mt-36 text-slate-700 mb-20">
         <div className="line-container inline-block relative">
           <span id="contact" className="text-3xl font-bold ">
             CONTACT
