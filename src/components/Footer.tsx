@@ -7,16 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import * as Icon from "react-feather";
 
-import {
-  FaRegEnvelope,
-  FaDribbble,
-  FaLinkedin,
-  FaFacebookF,
-  FaInstagram,
-  FaTwitter,
-  FaRegFile,
-  FaBehance,
-} from "react-icons/fa";
+
 
 
 export default function Footer() {

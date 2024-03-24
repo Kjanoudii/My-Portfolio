@@ -31,7 +31,7 @@
   top: 70%;
   width: 100%;
   height: 1px;
-  background-color: #3882c7;
+  background-color: #708da8;
 }
 
 .line-container::before {
@@ -1113,9 +1113,6 @@ video {
 .top-2\/4 {
   top: 50% !important;
 }
-
-
-
 
 .h-\[130px\] {
   height: 130px !important;
@@ -3641,7 +3638,6 @@ video {
   color: rgb(31 41 55 / var(--tw-text-opacity)) !important;
 }
 
-
 .text-gray-900 {
   --tw-text-opacity: 1 !important;
   color: rgb(17 24 39 / var(--tw-text-opacity)) !important;
@@ -4303,38 +4299,7 @@ h6,
   content: var(--tw-content);
   line-height: 1.25rem;
 }
-#topnav .buy-button .search-bar .searchform input[type="text"] {
-  display: block !important;
-  height: 2.75rem !important;
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
-  -webkit-padding-end: 42px !important;
-  padding-inline-end: 42px !important;
-  -webkit-padding-start: 0.75rem !important;
-  padding-inline-start: 0.75rem !important;
-  font-size: 0.875rem !important;
-  line-height: 1.25rem !important;
-  --tw-shadow: 0 0 #0000 !important;
-  --tw-shadow-colored: 0 0 #0000 !important;
-  -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
-  outline: 2px solid transparent !important;
-  outline-offset: 2px !important;
-}
-#topnav .buy-button .search-bar .searchform input[type="submit"] {
-  display: none;
-}
-#topnav .buy-button .search-bar .searchform:after {
-  content: "󰍉";
-  font-family: "Material Design Icons";
-}
-#topnav .buy-button .dropdown .dropdown-toggle::after,
-#topnav .buy-menu-btn .dropdown .dropdown-toggle::after {
-  content: var(--tw-content);
-  display: none;
-}
+
 #topnav .navigation-menu {
   margin: 0px;
   list-style-type: none;
@@ -4498,70 +4463,6 @@ h6,
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-:is(.dark #topnav.nav-sticky) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
-  --tw-shadow-color: #1f2937;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-#topnav.nav-sticky .navigation-menu.nav-light > li > a {
-  --tw-text-opacity: 1 !important;
-  color: rgb(22 28 45 / var(--tw-text-opacity)) !important;
-}
-:is(.dark #topnav.nav-sticky .navigation-menu.nav-light > li > a) {
-  --tw-text-opacity: 1 !important;
-  color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
-}
-#topnav.nav-sticky .navigation-menu.nav-light > li.active > a {
-  --tw-text-opacity: 1 !important;
-  color: rgb(79 70 229 / var(--tw-text-opacity)) !important;
-}
-:is(.dark #topnav.nav-sticky .navigation-menu.nav-light > li.active > a) {
-  --tw-text-opacity: 1 !important;
-  color: rgb(79 70 229 / var(--tw-text-opacity)) !important;
-}
-#topnav.nav-sticky .navigation-menu.nav-light > li:hover > .menu-arrow,
-#topnav.nav-sticky .navigation-menu.nav-light > li.active > .menu-arrow {
-  --tw-border-opacity: 1 !important;
-  border-color: rgb(79 70 229 / var(--tw-border-opacity)) !important;
-}
-#topnav.nav-sticky .navigation-menu.nav-light > li:hover > a,
-#topnav.nav-sticky .navigation-menu.nav-light > li.active > a {
-  --tw-text-opacity: 1 !important;
-  color: rgb(79 70 229 / var(--tw-text-opacity)) !important;
-}
-:is(.dark #topnav.nav-sticky .navigation-menu.nav-light > li:hover > a),
-:is(.dark #topnav.nav-sticky .navigation-menu.nav-light > li.active > a) {
-  --tw-text-opacity: 1 !important;
-  color: rgb(79 70 229 / var(--tw-text-opacity)) !important;
-}
-#topnav.nav-sticky .navigation-menu.nav-light .has-submenu .menu-arrow {
-  --tw-border-opacity: 1;
-  border-color: rgb(22 28 45 / var(--tw-border-opacity));
-}
-:is(
-    .dark #topnav.nav-sticky .navigation-menu.nav-light .has-submenu .menu-arrow
-  ) {
-  img--tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-#topnav.nav-sticky.tagline-height {
-  top: 0px !important;
-}
-#topnav.nav-sticky .buy-button .login-btn-primary,
-#topnav.nav-sticky .buy-button .btn-icon-dark {
-  display: inline-block;
-}
-#topnav.nav-sticky .buy-button .login-btn-light,
-#topnav.nav-sticky .buy-button .btn-icon-light {
-  display: none;
-}
-#topnav.nav-sticky .logo .l-dark {
-  display: inline-block;
-}
-#topnav.nav-sticky .logo .l-light {
-  display: none;
 }
 
 .logo {

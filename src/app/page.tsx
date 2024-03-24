@@ -26,24 +26,24 @@ export default function Home() {
     {
       img: tmt.src,
       name: "Toy Market Trading",
-      type: "NEXT.JS",
-      link: "/",
+      type: "NEXT.JS & STRAPI API",
+      link: "https://deploy-branch--toy-market-tradingg.netlify.app/",
       description: `ToyMarket Trading is a sleek and efficient website that demonstrates the power of Next.js and the versatility of Tailwind CSS. With clean code 
       and simple design, this project showcases my proficiency in web development.
-      Through ToyMarket Trading, users experience seamless navigation and responsiveness across devices. Leveraging Next.js,
-       the website offers lightning-fast performance, while Tailwind CSS enhances its aesthetics with customizable design elements.`,
+      Through ToyMarket Trading, users experience seamless navigation and responsiveness across devices.
+       Leveraging Next.js for the Front-End and Strapi API for the Back-End, while Tailwind CSS enhances its aesthetics with customizable design elements.`,
     },
 
     {
       img: reactimg.src,
       name: "Chat Web-App",
-      type: "REACT.JS",
+      type: "REACT.JS & FIREBASE",
       link: "https://chat-web-app15621.netlify.app/",
       description: `ChatApp is a dynamic and interactive
-       web application that highlights the capabilities of React.js and firebsse 
+       web application that highlights the capabilities of React.js and firebase 
        in creating engaging user experiences. This project serves as a showcase of
         my expertise in web development using firebase. ChatApp allows users to engage in live chat
-         conversations sending of pictures , recording voice messages, demonstrating real-time updates and instant message delivery. With its sleek design and intuitive user interface, this project 
+         conversations sending of pictures , recording voice messages, demonstrating real-time updates, cloud storing and instant message delivery. With its sleek design and intuitive user interface, this project 
         exemplifies my ability to create immersive web experiences using React.js.`,
     },
     {
@@ -68,7 +68,7 @@ interactive user experiences.
     {
       img: checklistImg.src,
       name: "Checklist",
-      type: "REACT.JS",
+      type: "REACT.JS & FIREBASE",
       link: "https://check-list-app5484.netlify.app/",
       description: `"React Checklist" is a straightforward web application designed for task management. With its intuitive interface and simple design, this project streamlines the process of creating and organizing lists using React.js and Firestore database.
 Users can create new lists and add items to each list, facilitating efficient task tracking and management. 

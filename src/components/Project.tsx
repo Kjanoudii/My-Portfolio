@@ -5,8 +5,7 @@ import Link from "next/link";
 // import img from "../assets/images/GiftingOasis.png";
 import { faArrowDown, faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import upArrow from "../assets/images/icons8-arrow-100.png";
-import downArrow from "../assets/images/icons8-down-arrow-100.png";
+
 
 interface ProjectProps {
   img: string;
