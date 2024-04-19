@@ -71,9 +71,9 @@ interactive user experiences.
       type: "REACT.JS & FIREBASE",
       link: "https://check-list-app5484.netlify.app/",
       description: `"React Checklist" is a straightforward web application designed for task management. With its intuitive interface and simple design, this project streamlines the process of creating and organizing lists using React.js and Firestore database.
-Users can create new lists and add items to each list, facilitating efficient task tracking and management. 
-Utilizing Firestore database integration, "React Checklist" provides real-time synchronization of data, enabling users to access their lists and items across multiple devices seamlessly. This ensures that users can stay organized and productive, whether they are at home, work, or on the go.
-By showcasing "React Checklist," I aim to highlight my proficiency in leveraging React.js and Firestore to develop web applications. 
+                Users can create new lists and add items to each list, facilitating efficient task tracking and management. 
+         Utilizing Firestore database integration, "React Checklist" provides real-time synchronization of data, enabling users to access their lists and items across multiple devices seamlessly. This ensures that users can stay organized and productive, whether they are at home, work, or on the go.
+               By showcasing "React Checklist," I aim to highlight my proficiency in leveraging React.js and Firestore to develop web applications. 
 
 
 

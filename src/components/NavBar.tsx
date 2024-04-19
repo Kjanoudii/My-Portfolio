@@ -6,7 +6,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-
+import logo from "../assets/images/logo.png";
 export default function Navbar(props: any) {
   let { navClass, navJustify } = props;
   let [isMenu, setisMenu] = useState(false);
@@ -40,7 +40,7 @@ export default function Navbar(props: any) {
   }, [setManu]);
 
   const toggleMenu = () => {
-    setisMenu(!isMenu); // Assuming setisMenu is a state setter function for isMenu
+    setisMenu(!isMenu);
 
     const navigationElement = document.getElementById("navigation");
     if (navigationElement) {
@@ -76,11 +76,8 @@ export default function Navbar(props: any) {
       }`}
     >
       <div className=" " style={{ margin: 0 }}>
-        <div id="navigation">
-          <div className="w-24 flex ">
-            <FontAwesomeIcon size={"xl"} icon={faGithub} />
-            <p className="text-xl">Kjanoudii</p>
-          </div>
+        <div>
+          <Image className="pl-5" height={100}width={150} src={logo} alt="" />
 
           <ul className={` ml-36 navigation-menu `} style={{ margin: 0 }}>
             <li>

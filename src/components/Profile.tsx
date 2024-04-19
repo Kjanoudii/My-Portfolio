@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import myPic from "../assets/images/myPic.jpg";
+import myPic from "../assets/images/me-2.jpeg";
 import { BsCheckCircle } from "react-icons/bs";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -15,7 +15,8 @@ import { faMapPin } from "@fortawesome/free-solid-svg-icons";
 
 export default function Profile() {
   return (
-    <div id="#home"
+    <div
+      id="#home"
       className="mt-56 px-52 mx-auto grid lg:grid-cols-12 md:grid-cols-2 
     grid-cols-1 items-center my-10 gap-[15px]"
     >
