@@ -17,12 +17,12 @@ export default function Profile() {
   return (
     <div
       id="#home"
-      className="mt-56 px-52 mx-auto grid lg:grid-cols-12 md:grid-cols-2 
-    grid-cols-1 items-center my-10 gap-[15px]"
+      className="mt-56 md:px-52 px-2 mx-auto md:grid lg:grid-cols-12 md:grid-cols-2 
+    items-center my-10 lg:gap-[15px] flex flex-col m-0 gap-4"
     >
-      <div className="lg:col-span-5">
+      <div className="lg:col-span-5 ">
         <Image
-          className="mr-10 ml-auto my-img"
+          className="md:mr-10 mr-0 ml-auto my-img w-40 mx-0 "
           src={myPic}
           height={0}
           width={400}
@@ -30,9 +30,12 @@ export default function Profile() {
           alt=""
         />
       </div>
-      <div className="lg:col-span-7">
-        <div className="lg:ms-5">
-          <h3 className="mb-6 md:text-5xl text-3xl md:leading-normal leading-normal font-bold">
+      <div className="lg:col-span-7 ">
+        <div className="lg:ms-5 ms-0">
+          <h3
+            className="mb-6 md:text-5xl text-3xl md:leading-normal 
+          leading-normal font-bold"
+          >
             Front-End React <br /> Developer
           </h3>
           <p className="text-slate-500 text-lg max-w-xl">
@@ -71,15 +74,22 @@ export default function Profile() {
             </Link>
           </div>
 
-          <section className="max-w-full px-28 mt-10 border-t border-b border-gray-200 dark:border-gray-700">
-            <div className=" ">
+          <section
+            className="max-w-[500px] md:px-8 lg:mt-10 m-0 border-t
+           border-b border-gray-200 dark:border-gray-700"
+          >
+            
               <CompanyLogo />
-            </div>
+          
           </section>
-          <div className="mt-12">
+          <div className="md:mt-12 mt-2">
             <a
               href="mailto:janoudikhaled@gmail.com"
-              className="py-2 px-5 font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md me-2 mt-2 inline-flex items-center"
+              className="py-2 px-5 font-semibold tracking-wide border align-middle
+               duration-500 text-base text-center
+               bg-indigo-600 hover:bg-indigo-700 border-indigo-600
+                hover:border-indigo-700 text-white rounded-md me-2 mt-2 inline-flex
+                 items-center"
             >
               <FaRegEnvelope className="me-2 text-sm " /> Contact Me
             </a>

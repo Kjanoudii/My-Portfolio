@@ -8,7 +8,7 @@ import { RiMastercardLine } from "react-icons/ri";
 import img from "../assets/images/coffee.jpg";
 export default function About() {
   return (
-    <div className="max-h-full px-60 relative md:mt-44 ">
+    <div className="max-h-full lg:px-60 mx-2 relative md:mt-44 ">
       <div className="grid lg:grid-cols-12 grid-cols-1 items-center gap-[10px]">
         <div className="lg:col-span-5">
           <Image

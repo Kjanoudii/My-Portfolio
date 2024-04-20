@@ -81,7 +81,7 @@ interactive user experiences.
     },
   ];
   return (
-    <div className="mx-auto text-gray-800">
+    <div className="mx-auto text-gray-800 h-full">
       <Profile />
 
       <div className="mt-56 mb-48 ">
@@ -116,19 +116,19 @@ interactive user experiences.
         })}
       </section>
 
-      <div className="text-center mt-36 text-slate-700 mb-20">
+      <div className="text-center mt-36 text-slate-700 md:mb-20">
         <div className="line-container inline-block relative">
           <span id="contact" className="text-3xl font-bold ">
             CONTACT
           </span>
         </div>
       </div>
-      <section className=" my-14 ml-56 max-h-full py-6">
+      <section className=" my-14 md:ml-56 md:py-6 h-full">
         <h6 className="font-bold uppercase mb-5 text-indigo-600">
           Dont hesitate to hit me up 👇
         </h6>
 
-        <div className="flex gap-10 ">
+        <div className=" flex flex-col lg:flex-row  md:gap-10 ">
           <div className="flex rounded-md p-3 gap-4 items-center cursor-pointer">
             <Image className="c-thin-border p-2" src={mapIcon} alt="" />
             <div>

@@ -1,5 +1,8 @@
 @charset "UTF-8";
-/* Template Name: Techwind - Tailwind CSS Multipurpose Landing & Admin Dashboard Template
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;/* Template Name: Techwind - Tailwind CSS Multipurpose Landing & Admin Dashboard Template
    Author: Shreethemes
    Email: support@shreethemes.in
    Website: https://shreethemes.in
@@ -8,9 +11,6 @@
    File: Main Css File
 */
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 @import url("https://fonts.googleapis.com/css?family=Nunito:300,400,500,600,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap");
@@ -54,13 +54,27 @@
   width: 150px;
 }
 .my-img {
-  height: 500px;
-  width: 505px;
+  height: 400px;
+  width: 405px;
 
   border: 3px solid #000000;
 
   border-radius: 50%;
   box-shadow: 1px 1px 3px 1px #fffbfb;
+}
+
+@media (max-width: 768px) {
+  .my-img {
+    height: 300px;
+    width: 305px;
+  }
+}
+
+@media (max-width: 576px) {
+  .my-img {
+    height: 200px;
+    width: 205px;
+  }
 }
 .card {
   width: 400px;
