@@ -86,7 +86,7 @@ interactive user experiences.
 
       <div className="mt-56 mb-48 ">
         <div className="text-center mt-16 text-slate-700">
-          <div className="line-container inline-block relative">
+          <div className="lg:line-container inline-block relative">
             <span id="about" className="text-3xl font-bold ">
               ABOUT
             </span>
@@ -95,40 +95,57 @@ interactive user experiences.
         <About />
       </div>
       <div className="text-center my-24 text-slate-700">
-        <div className="line-container inline-block relative">
+        <div className="lg:line-container  inline-block relative">
           <span id="projects" className="text-3xl font-bold ">
             PROJECTS
           </span>
         </div>
       </div>
-      <section className="my-20 lg:mx-auto lg:px-60">
-        {projects.map((item, index) => {
-          return (
-            <Project
-              key={index}
-              img={item.img}
-              name={item.name}
-              type={item.type}
-              link={item.link}
-              description={item.description}
-            />
-          );
-        })}
+
+      <section className="my-20 lg:mx-auto lg:px-60 px-3">
+        <div className="lg:flex lg:flex-row justify-center gap-2">
+          {projects.slice(0, 2).map((item, index) => {
+            return (
+              <Project
+                key={index}
+                img={item.img}
+                name={item.name}
+                type={item.type}
+                link={item.link}
+                description={item.description}
+              />
+            );
+          })}
+        </div>
+        <div className="lg:flex lg:flex-row justify-center gap-2">
+          {projects.slice(2, 4).map((item, index) => {
+            return (
+              <Project
+                key={index}
+                img={item.img}
+                name={item.name}
+                type={item.type}
+                link={item.link}
+                description={item.description}
+              />
+            );
+          })}
+        </div>
       </section>
 
       <div className="text-center mt-36 text-slate-700 md:mb-20">
-        <div className="line-container inline-block relative">
+        <div className="lg:line-container inline-block relative">
           <span id="contact" className="text-3xl font-bold ">
             CONTACT
           </span>
         </div>
       </div>
-      <section className=" my-14 md:ml-56 md:py-6 h-full">
+      <section className=" my-14 md:ml-56 md:py-6 h-full container mx-auto">
         <h6 className="font-bold uppercase mb-5 text-indigo-600">
           Dont hesitate to hit me up 👇
         </h6>
 
-        <div className=" flex flex-col lg:flex-row  md:gap-10 ">
+        <div className=" flex flex-col lg:flex-row justify-center md:gap-10 w-4/6">
           <div className="flex rounded-md p-3 gap-4 items-center cursor-pointer">
             <Image className="c-thin-border p-2" src={mapIcon} alt="" />
             <div>

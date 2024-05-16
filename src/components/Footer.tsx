@@ -14,7 +14,7 @@ export default function Footer() {
   
   return (
     <div>
-      <footer className="footer h-full 
+      <footer className="lg:block h-full hidden
       bg-dark-footer relative text-gray-200 dark:text-gray-200">
         <div className="py-[30px] px-0 border-t border-slate-800">
           <div className="container relative text-center">

@@ -49,6 +49,10 @@
 .c-thin-border {
   box-shadow: 0 0px 0px 0.5px rgba(155, 143, 143, 0.8);
 }
+.container{
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 .avatar {
   width: 150px;
