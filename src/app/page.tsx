@@ -43,7 +43,7 @@ export default function Home() {
        web application that highlights the capabilities of React.js and firebase 
        in creating engaging user experiences. This project serves as a showcase of
         my expertise in web development using firebase. ChatApp allows users to engage in live chat
-         conversations sending of pictures , recording voice messages, demonstrating real-time updates, cloud storing and instant message delivery. With its sleek design and intuitive user interface, this project 
+         conversations, sending of pictures , recording voice messages, demonstrating real-time updates, cloud storing and instant message delivery. With its sleek design and intuitive user interface, this project 
         exemplifies my ability to create immersive web experiences using React.js.`,
     },
     {
