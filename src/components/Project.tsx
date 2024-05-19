@@ -25,7 +25,7 @@ export default function Project({
 
   return (
     <div
-      className={`my-10 lg:mx-5 lg:inline-block  lg:w-96 rounded-md max-h-auto ${
+      className={`my-10 lg:mx-3 lg:inline-block  lg:w-96 rounded-md max-h-auto ${
         clicked ? "pb-72" : ""
       }`}
     >

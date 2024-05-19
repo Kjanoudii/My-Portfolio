@@ -6,6 +6,7 @@ import About from "../components/About";
 import Footer from "../components/Footer";
 import Project from "../components/Project";
 import tmt from "../assets/images/tmt.png";
+import enjaz from "../assets/images/enjaz.png";
 import reactimg from "../assets/images/reactChat.png";
 import giftImg from "../assets/images/GiftingOasis.png";
 import checklistImg from "../assets/images/check-list.png";
@@ -32,6 +33,20 @@ export default function Home() {
       and simple design, this project showcases my proficiency in web development.
       Through ToyMarket Trading, users experience seamless navigation and responsiveness across devices.
        Leveraging Next.js for the Front-End and Strapi API for the Back-End, while Tailwind CSS enhances its aesthetics with customizable design elements.`,
+    },
+    {
+      img: enjaz.src,
+      name: "Enjaz World",
+      type: "NEXT, TYPESCRIPT & TAILWINDCSS",
+      link: "https://my-enjaz.vercel.app/",
+      description: `Enjaz is a purely frontend site that showcases my 
+      styling abilities in TailwindCSS using Next.js and TypeScript.
+       This project demonstrates my proficiency in creating aesthetically 
+       pleasing and highly functional web interfaces. With a focus on clean 
+       code and responsive design, Enjaz offers users an elegant and seamless
+        browsing experience across devices. This project serves as a testament to
+         my expertise in modern web development technologies and my ability to
+          deliver visually appealing and user-friendly web applications.`,
     },
 
     {
@@ -103,8 +118,8 @@ interactive user experiences.
       </div>
 
       <section className="my-20 lg:mx-auto lg:px-60 px-3">
-        <div className="lg:flex lg:flex-row justify-center gap-2">
-          {projects.slice(0, 2).map((item, index) => {
+        <div className="lg:flex lg:flex-row justify-center gap-1">
+          {projects.slice(0, 3).map((item, index) => {
             return (
               <Project
                 key={index}
@@ -118,7 +133,7 @@ interactive user experiences.
           })}
         </div>
         <div className="lg:flex lg:flex-row justify-center gap-2">
-          {projects.slice(2, 4).map((item, index) => {
+          {projects.slice(3, 5).map((item, index) => {
             return (
               <Project
                 key={index}
