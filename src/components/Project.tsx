@@ -6,7 +6,7 @@ import Link from "next/link";
 import { faArrowDown, faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-
+import parse from "html-react-parser";
 interface ProjectProps {
   img: string;
   name: string;
@@ -58,7 +58,9 @@ export default function Project({
           icon={clicked ? faArrowUp : faArrowDown}
         />
         {clicked && (
-          <p className={`pb-3 absolute text-gray-700`}>{description}</p>
+          <p className={`pb-3 absolute text-gray-700`}>
+            {parse(description ?? "")}
+          </p>
         )}
 
         {/* <FontAwesomeIcon icon={faArrowUp} /> */}

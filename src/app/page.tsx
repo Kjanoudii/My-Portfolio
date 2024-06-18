@@ -9,9 +9,11 @@ import tmt from "../assets/images/tmt.png";
 import enjaz from "../assets/images/enjaz.png";
 import reactimg from "../assets/images/reactChat.png";
 import giftImg from "../assets/images/GiftingOasis.png";
+import aora from "../assets/images/aora.jpg";
+
 import checklistImg from "../assets/images/check-list.png";
-import mapIcon from "../assets/images/icons8-map-64.png";
-import mailIcon from "../assets/images/icons8-mail-64.png";
+import ContactSection from "@/components/ContactSection";
+
 // const Navbar = dynamic(()=>import('../components/NavBar'));
 
 interface ProjectProps {
@@ -39,7 +41,7 @@ export default function Home() {
       name: "Enjaz World",
       type: "NEXT, TYPESCRIPT & TAILWINDCSS",
       link: "https://my-enjaz.vercel.app/",
-      description: `Enjaz is a purely frontend site that showcases my 
+      description: `Enjaz is a purely frontend Web app that showcases my 
       styling abilities in TailwindCSS using Next.js and TypeScript.
        This project demonstrates my proficiency in creating aesthetically 
        pleasing and highly functional web interfaces. With a focus on clean 
@@ -60,6 +62,20 @@ export default function Home() {
         my expertise in web development using firebase. ChatApp allows users to engage in live chat
          conversations, sending of pictures , recording voice messages, demonstrating real-time updates, cloud storing and instant message delivery. With its sleek design and intuitive user interface, this project 
         exemplifies my ability to create immersive web experiences using React.js.`,
+    },
+    {
+      img: aora.src,
+      name: "AORA-MEMES",
+      type: "REACT-NATIVE & APPWRITE",
+      link: "https://expo.dev/preview/update?message=fix&updateRuntimeVersion=1.0.0&createdAt=2024-06-17T23%3A38%3A52.152Z&slug=exp&projectId=ddf4f5eb-8063-4c5d-a764-59edae19b8ec&group=42d579a0-eee7-4c00-bc23-56b2d360a4c9",
+      description: `AORA-MEMES is a React Native Expo application that uses Appwrite as 
+      the backend. Users can log in, view short videos and meme videos, and post/create 
+      their own short videos. This project demonstrates my ability to develop mobile 
+      applications with dynamic content and user interactions using modern technologies.
+     <br/>
+      Note: To view this app, you must install the 
+      expo go app on your phone (appstore or googleplay) and scan the preview QR-code.
+      `,
     },
     {
       img: giftImg.src,
@@ -98,7 +114,6 @@ interactive user experiences.
   return (
     <div className="mx-auto text-gray-800 h-full">
       <Profile />
-
       <div className="mt-56 mb-48 ">
         <div className="text-center mt-16 text-slate-700">
           <div className="lg:line-container inline-block relative">
@@ -116,7 +131,6 @@ interactive user experiences.
           </span>
         </div>
       </div>
-
       <section className="my-20 lg:mx-auto lg:px-60 px-3">
         <div className="lg:flex lg:flex-row justify-center gap-1">
           {projects.slice(0, 3).map((item, index) => {
@@ -133,7 +147,8 @@ interactive user experiences.
           })}
         </div>
         <div className="lg:flex lg:flex-row justify-center gap-2">
-          {projects.slice(3, 5).map((item, index) => {
+          
+          {projects.slice(3, 6).map((item, index) => {
             return (
               <Project
                 key={index}
@@ -147,7 +162,6 @@ interactive user experiences.
           })}
         </div>
       </section>
-
       <div className="text-center mt-36 text-slate-700 md:mb-20">
         <div className="lg:line-container inline-block relative">
           <span id="contact" className="text-3xl font-bold ">
@@ -155,30 +169,7 @@ interactive user experiences.
           </span>
         </div>
       </div>
-      <section className=" my-14 md:ml-56 md:py-6 h-full container mx-auto">
-        <h6 className="font-bold uppercase mb-5 text-indigo-600">
-          Dont hesitate to hit me up 👇
-        </h6>
-
-        <div className=" flex flex-col lg:flex-row justify-center md:gap-10 w-4/6">
-          <div className="flex rounded-md p-3 gap-4 items-center cursor-pointer">
-            <Image className="c-thin-border p-2" src={mapIcon} alt="" />
-            <div>
-              <h4 className="font-semibold text-gray-900">Location</h4>
-              <p className=" text-gray-500">Beirut, Lebanon</p>
-            </div>
-          </div>
-
-          <div className="flex rounded-md p-3 gap-4 items-center cursor-pointer">
-            <Image className="c-thin-border p-2" src={mailIcon} alt="" />
-            <div>
-              <h4 className="font-semibold text-gray-900">Email</h4>
-              <p className=" text-gray-500">janoudikhaled@gmail.com</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      <ContactSection />
       <Footer />
       {/* <footer>
         <p>&copy; {new Date().getFullYear()} Your Name</p>
