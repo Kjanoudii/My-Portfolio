@@ -31,7 +31,7 @@ export default function Home() {
       img: ehcoPost.src,
       name: "EchoPost",
       type: "NEXT.JS, TYPESCRIPT, NODEJS & MYSQL",
-      link: "https://microblog-app.vercel.app/",
+      link: "https://fullstack-client-copy-git-main-kjanoudiis-projects.vercel.app/",
       description: `EchoPost is a robust full-stack web application designed 
   to mimic the core functionalities of social platforms like Twitter/X. 
   The project is divided into two separate repositories: one for the frontend and 
