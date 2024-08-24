@@ -9,6 +9,7 @@ import tmt from "../assets/images/tmt.png";
 import enjaz from "../assets/images/enjaz.png";
 import reactimg from "../assets/images/reactChat.png";
 import giftImg from "../assets/images/GiftingOasis.png";
+import ehcoPost from "../assets/images/echoPost.png";
 import aora from "../assets/images/aora.jpg";
 
 import checklistImg from "../assets/images/check-list.png";
@@ -26,6 +27,21 @@ interface ProjectProps {
 }
 export default function Home() {
   const projects: ProjectProps[] = [
+    {
+      img: ehcoPost.src,
+      name: "EchoPost",
+      type: "NEXT.JS, TYPESCRIPT, NODEJS & MYSQL",
+      link: "https://microblog-app.vercel.app/",
+      description: `EchoPost is a robust full-stack web application designed 
+  to mimic the core functionalities of social platforms like Twitter/X. 
+  The project is divided into two separate repositories: one for the frontend and 
+  another for the backend. The frontend leverages Next.js, TypeScript, and 
+  TailwindCSS, while the backend is built using ExpressJS, Node.js, and MySQL. 
+  Users can register, log in, create posts, and like other users' posts.
+   With JWT for authentication, EchoPost ensures secures user sessions and 
+   data integrity. This project showcases my ability to develop and manage 
+   complex web applications across different stacks, emphasizing frontend, backend and authentication expertise.`,
+    },
     {
       img: tmt.src,
       name: "Toy Market Trading",
@@ -71,30 +87,30 @@ export default function Home() {
       description: `AORA-MEMES is a React Native Expo application that uses Appwrite as 
       the backend. Users can log in, view short videos and meme videos, and post/create 
       their own short videos. This project demonstrates my ability to develop mobile 
-      applications with dynamic content and user interactions using modern technologies.
+      applications with dynamic content and u ser interactions using modern technologies.
      <br/>
       Note: To view this app, you must install the 
       expo go app on your phone (appstore or googleplay) and scan the preview QR-code.
       `,
     },
-    {
-      img: giftImg.src,
-      name: "Gifting Oasis",
-      type: "JS & BOOTSTRAP",
-      link: "https://giftoasis.netlify.app/",
-      description: `"The Gifting Oasis" epitomizes a modern and user-centric web 
-      application, showcasing the seamless integration of Bootstrap and Vanilla JavaScript. Designed to be a one-stop destination for gift seekers, this project radiates simplicity and elegance through its design and user interface.
-With its responsive layout and fluid navigation, "The Gifting Oasis" ensures a 
-delightful browsing experience across various devices. Leveraging Bootstrap's 
-robust framework, the website offers a blend of functionality and 
-aesthetics, allowing users to explore a diverse range of gifts across different 
-categories .
-This project underscores my proficiency in frontend development, highlighting my 
-ability to use Vanilla JavaScript to create dynamic and 
-interactive user experiences. 
+    //     {
+    //       img: giftImg.src,
+    //       name: "Gifting Oasis",
+    //       type: "JS & BOOTSTRAP",
+    //       link: "https://giftoasis.netlify.app/",
+    //       description: `"The Gifting Oasis" epitomizes a modern and user-centric web
+    //       application, showcasing the seamless integration of Bootstrap and Vanilla JavaScript. Designed to be a one-stop destination for gift seekers, this project radiates simplicity and elegance through its design and user interface.
+    // With its responsive layout and fluid navigation, "The Gifting Oasis" ensures a
+    // delightful browsing experience across various devices. Leveraging Bootstrap's
+    // robust framework, the website offers a blend of functionality and
+    // aesthetics, allowing users to explore a diverse range of gifts across different
+    // categories .
+    // This project underscores my proficiency in frontend development, highlighting my
+    // ability to use Vanilla JavaScript to create dynamic and
+    // interactive user experiences.
 
-`,
-    },
+    // `,
+    //     },
 
     {
       img: checklistImg.src,
@@ -146,8 +162,7 @@ interactive user experiences.
             );
           })}
         </div>
-        <div className="lg:flex lg:flex-row justify-center gap-2">
-          
+        <div className="lg:flex lg:flex-row justify-center gap-2 mt-8">
           {projects.slice(3, 6).map((item, index) => {
             return (
               <Project
