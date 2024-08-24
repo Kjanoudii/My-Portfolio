@@ -32,7 +32,7 @@ export default function Home() {
       name: "EchoPost",
       type: "NEXT.JS, TYPESCRIPT, NODEJS & MYSQL",
       link: "https://echo-post-k.vercel.app/",
-      description: `EchoPost is a robust full-stack web application designed 
+      description: `EchoPost is a responsive, mobile friendly full-stack web application designed 
   to mimic the core functionalities of social platforms like Twitter/X. 
   The project is divided into two separate repositories: one for the frontend and 
   another for the backend. The frontend leverages Next.js, TypeScript, and 
