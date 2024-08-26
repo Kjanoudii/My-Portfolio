@@ -54,7 +54,7 @@ export default function Project({
 
         <FontAwesomeIcon
           onClick={() => setClicked(!clicked)}
-          className="max-w-3 cursor-pointer block ml-auto mr-0"
+          className="max-w-3 cursor-pointer block ml-auto mr-0 bg-gray-200 rounded-full py-1.5 px-2 "
           icon={clicked ? faArrowUp : faArrowDown}
         />
         {clicked && (

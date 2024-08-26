@@ -57,7 +57,7 @@ export default function Home() {
       name: "Enjaz World",
       type: "NEXT, TYPESCRIPT & TAILWINDCSS",
       link: "https://my-enjaz.vercel.app/",
-      description: `Enjaz is a purely frontend Web app that showcases my 
+      description: `Enjaz is a purely Frontend Web app with no functionality. The project showcases my 
       styling abilities in TailwindCSS using Next.js and TypeScript.
        This project demonstrates my proficiency in creating aesthetically 
        pleasing and highly functional web interfaces. With a focus on clean 
