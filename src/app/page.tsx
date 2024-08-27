@@ -93,24 +93,24 @@ export default function Home() {
       expo go app on your phone (appstore or googleplay) and scan the preview QR-code.
       `,
     },
-    //     {
-    //       img: giftImg.src,
-    //       name: "Gifting Oasis",
-    //       type: "JS & BOOTSTRAP",
-    //       link: "https://giftoasis.netlify.app/",
-    //       description: `"The Gifting Oasis" epitomizes a modern and user-centric web
-    //       application, showcasing the seamless integration of Bootstrap and Vanilla JavaScript. Designed to be a one-stop destination for gift seekers, this project radiates simplicity and elegance through its design and user interface.
-    // With its responsive layout and fluid navigation, "The Gifting Oasis" ensures a
-    // delightful browsing experience across various devices. Leveraging Bootstrap's
-    // robust framework, the website offers a blend of functionality and
-    // aesthetics, allowing users to explore a diverse range of gifts across different
-    // categories .
-    // This project underscores my proficiency in frontend development, highlighting my
-    // ability to use Vanilla JavaScript to create dynamic and
-    // interactive user experiences.
+        {
+          img: giftImg.src,
+          name: "Gifting Oasis",
+          type: "JS & BOOTSTRAP",
+          link: "https://giftoasis.netlify.app/",
+          description: `"The Gifting Oasis" epitomizes a modern and user-centric web
+          application, showcasing the seamless integration of Bootstrap and Vanilla JavaScript. Designed to be a one-stop destination for gift seekers, this project radiates simplicity and elegance through its design and user interface.
+    With its responsive layout and fluid navigation, "The Gifting Oasis" ensures a
+    delightful browsing experience across various devices. Leveraging Bootstrap's
+    robust framework, the website offers a blend of functionality and
+    aesthetics, allowing users to explore a diverse range of gifts across different
+    categories .
+    This project underscores my proficiency in frontend development, highlighting my
+    ability to use Vanilla JavaScript to create dynamic and
+    interactive user experiences.
 
-    // `,
-    //     },
+    `,
+        },
 
     {
       img: checklistImg.src,
