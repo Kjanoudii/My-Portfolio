@@ -29,7 +29,7 @@ export default function Project({
         clicked ? "pb-72" : ""
       }`}
     >
-      <div className="group relative rounded-md transition-all duration-500">
+      <div className="group relative rounded-md transition-all duration-500 ">
         <Link target="_blank" href={link ? link : "/"}>
           <Image
             src={img}
