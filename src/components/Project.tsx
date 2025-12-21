@@ -26,7 +26,7 @@ export default function Project({
   return (
     <div
       className={`my-10 lg:mx-3 lg:inline-block  lg:w-96 rounded-md max-h-auto ${
-        clicked ? "pb-72" : ""
+        clicked ? "pb-[580px]" : ""
       }`}
     >
       <div className="group relative rounded-md transition-all duration-500">

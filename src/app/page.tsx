@@ -10,6 +10,7 @@ import enjaz from "../assets/images/enjaz.png";
 import reactimg from "../assets/images/reactChat.png";
 import giftImg from "../assets/images/GiftingOasis.png";
 import ehcoPost from "../assets/images/echoPost.png";
+import portfolio from "../assets/images/portfolio.png";
 import aora from "../assets/images/aora.jpg";
 
 import checklistImg from "../assets/images/check-list.png";
@@ -28,19 +29,12 @@ interface ProjectProps {
 export default function Home() {
   const projects: ProjectProps[] = [
     {
-      img: ehcoPost.src,
-      name: "EchoPost",
-      type: "NEXT.JS, TYPESCRIPT, NODEJS & MYSQL",
-      link: "https://echo-post-k.vercel.app/",
-      description: `EchoPost is a responsive, mobile friendly full-stack web application designed 
-  to mimic the core functionalities of social platforms like Twitter/X. 
-  The project is divided into two separate repositories: one for the frontend and 
-  another for the backend. The frontend leverages Next.js, TypeScript, and 
-  TailwindCSS, while the backend is built using ExpressJS, Node.js, and MySQL. 
-  Users can register, log in, create posts, and like other users' posts.
-   With JWT for authentication, EchoPost ensures secures user sessions and 
-   data integrity. This project showcases my ability to develop and manage 
-   complex web applications across different stacks, emphasizing frontend, backend and authentication expertise.`,
+      img: portfolio.src,
+      name: "BSK Student Portfolio",
+      type: "NEXT.JS, EXPRESS.JS, MONGODBm & MINIO",
+      link: "https://youtu.be/T6b_vB9KGtQ",
+      description: `BSK Student Portfolio is a comprehensive full-stack web application built for The British School of Kuwait, enabling students to showcase their academic experiences, achievements, and extracurricular activities. Built with Next.js, React, and MongoDB, the platform features a robust role-based access control (RBAC) system that manages different user permissions for students, teachers, and administrators. The application implements secure file upload functionality using MinIO for object storage, allowing students to attach documents, images, and media to their portfolio entries. With advanced MongoDB aggregation pipelines for efficient data querying and filtering, JWT-based authentication for secure user sessions, and a responsive design for seamless mobile and desktop experiences, the platform serves as a centralized hub for student achievement tracking. This project demonstrates my expertise in building scalable educational platforms with complex data relationships, secure file management, database optimization, and enterprise-level access control systems. <strong>Note:</strong> This is an internal school system and not publicly accessible.
+       Click the project image to watch a demonstration video.`,
     },
     {
       img: tmt.src,
