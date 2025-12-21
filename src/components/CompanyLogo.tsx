@@ -18,7 +18,7 @@ import {
 export default function CompanyLogo() {
   return (
     <div className=" md:flex grid grid-cols-2 gap-5 w-full ">
-      <div className="my-auto text-gray-700 text-xl font-semibold flex ">
+      {/* <div className="my-auto text-gray-700 text-xl font-semibold flex ">
         <span className="">Stack:</span>
       </div>
 
@@ -40,7 +40,7 @@ export default function CompanyLogo() {
 
       <div className="mx-auto py-4 my-auto">
         <Image src={tailwindcssIcon} className="w-8" alt="" />
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import myPic from "../assets/images/me-2.jpeg";
+import myPic from "../assets/images/img.jpg";
 import { BsCheckCircle } from "react-icons/bs";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
