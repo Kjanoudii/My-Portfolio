@@ -14,7 +14,7 @@ const ContactSection = () => {
           <Image className="c-thin-border p-2" src={mapIcon} alt="" />
           <div>
             <h4 className="font-semibold text-gray-900">Location</h4>
-            <p className=" text-gray-500">Beirut, Lebanon</p>
+            <p className=" text-gray-500">Kuwait</p>
           </div>
         </div>
 

@@ -36,11 +36,11 @@ export default function Profile() {
             className="mb-6 md:text-5xl text-3xl md:leading-normal 
           leading-normal font-bold"
           >
-            Front-End React <br /> Developer
+            Full Stack <br /> Developer
           </h3>
           <p className="text-slate-500 text-lg max-w-xl">
-            Hi, Im Khaled Eljanoudi. A passionate Front-End React <br />
-            Developer based in Beirut, Lebanon
+            Hi, Im Khaled Eljanoudi. A passionate Full Stack <br />
+            Developer based in Kuwait
             <FontAwesomeIcon
               icon={faMapPin}
               className="inline w-3"
