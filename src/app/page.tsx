@@ -77,14 +77,12 @@ export default function Home() {
       img: aora.src,
       name: "AORA-MEMES",
       type: "REACT-NATIVE & APPWRITE",
-      link: "https://expo.dev/preview/update?message=fix&updateRuntimeVersion=1.0.0&createdAt=2024-06-17T23%3A38%3A52.152Z&slug=exp&projectId=ddf4f5eb-8063-4c5d-a764-59edae19b8ec&group=42d579a0-eee7-4c00-bc23-56b2d360a4c9",
+      link: "https://www.linkedin.com/posts/khaled-janoudi-075987291_react-reactnative-mobiledevelopment-activity-7208925762593173505-i-2f?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEbNM5kBlBMesUPaAGsB7r7tOoSMBRTXUG8",
       description: `AORA-MEMES is a React Native Expo application that uses Appwrite as 
       the backend. Users can log in, view short videos and meme videos, and post/create 
       their own short videos. This project demonstrates my ability to develop mobile 
       applications with dynamic content and u ser interactions using modern technologies.
-     <br/>
-      Note: To view this app, you must install the 
-      expo go app on your phone (appstore or googleplay) and scan the preview QR-code.
+     
       `,
     },
         {
