@@ -31,7 +31,7 @@ export default function Home() {
     {
       img: portfolio.src,
       name: "BSK Student Portfolio",
-      type: "NEXT.JS, EXPRESS.JS, MONGODBm & MINIO",
+      type: "NEXT.JS, EXPRESS.JS, MONGODB & MINIO",
       link: "https://youtu.be/T6b_vB9KGtQ",
       description: `BSK Student Portfolio is a comprehensive full-stack web application built for The British School of Kuwait, enabling students to showcase their academic experiences, achievements, and extracurricular activities. Built with Next.js, React, and MongoDB, the platform features a robust role-based access control (RBAC) system that manages different user permissions for students, teachers, and administrators. The application implements secure file upload functionality using MinIO for object storage, allowing students to attach documents, images, and media to their portfolio entries. With advanced MongoDB aggregation pipelines for efficient data querying and filtering, JWT-based authentication for secure user sessions, and a responsive design for seamless mobile and desktop experiences, the platform serves as a centralized hub for student achievement tracking. This project demonstrates my expertise in building scalable educational platforms with complex data relationships, secure file management, database optimization, and enterprise-level access control systems. <strong>Note:</strong> This is an internal school system and not publicly accessible.
        Click the project image to watch a demonstration video.`,
