@@ -40,7 +40,7 @@ export default function Home() {
       img: tmt.src,
       name: "Toy Market Trading",
       type: "NEXT.JS & STRAPI API",
-      link: "https://toy-marketing.netlify.app/",
+      link: "https://toymarkettrading.com/",
       description: `ToyMarket Trading is a sleek and efficient website that demonstrates the power of Next.js and the versatility of Tailwind CSS. With clean code 
       and simple design, this project showcases my proficiency in web development.
       Through ToyMarket Trading, users experience seamless navigation and responsiveness across devices.
