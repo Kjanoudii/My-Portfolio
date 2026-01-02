@@ -9,6 +9,7 @@ import tmt from "../assets/images/tmt.png";
 import enjaz from "../assets/images/enjaz.png";
 import reactimg from "../assets/images/reactChat.png";
 import giftImg from "../assets/images/GiftingOasis.png";
+import staffImg from "../assets/images/staff-call-img.png";
 import ehcoPost from "../assets/images/echoPost.png";
 import portfolio from "../assets/images/portfolio.png";
 import aora from "../assets/images/aora.jpg";
@@ -33,9 +34,30 @@ export default function Home() {
       name: "BSK Student Portfolio",
       type: "NEXT.JS, EXPRESS.JS, MONGODB & MINIO",
       link: "https://youtu.be/T6b_vB9KGtQ",
-      description: `BSK Student Portfolio is a comprehensive full-stack web application built for The British School of Kuwait, enabling students to showcase their academic experiences, achievements, and extracurricular activities. Built with Next.js, React, and MongoDB, the platform features a robust role-based access control (RBAC) system that manages different user permissions for students, teachers, and administrators. The application implements secure file upload functionality using MinIO for object storage, allowing students to attach documents, images, and media to their portfolio entries. With advanced MongoDB aggregation pipelines for efficient data querying and filtering, JWT-based authentication for secure user sessions, and a responsive design for seamless mobile and desktop experiences, the platform serves as a centralized hub for student achievement tracking. This project demonstrates my expertise in building scalable educational platforms with complex data relationships, secure file management, database optimization, and enterprise-level access control systems. <strong>Note:</strong> This is an internal school system and not publicly accessible.
+      description: `BSK Student Portfolio is a comprehensive full-stack web application built for The British School of Kuwait, enabling students to showcase their academic experiences, achievements, and extracurricular activities. Built with Next.js, React, and MongoDB, the platform features a robust role-based access control (RBAC) system that manages different user permissions for students, teachers, and administrators. The application implements secure file upload functionality using MinIO for object storage, allowing students to attach documents, images, and media to their portfolio entries. With advanced MongoDB aggregation pipelines for efficient data querying and filtering, JWT-based authentication for secure user sessions, and a responsive design for seamless mobile and desktop experiences, 
+      the platform serves as a centralized hub for student achievement tracking. This project demonstrates my expertise in building scalable educational platforms with complex data relationships, secure file management, database optimization, and enterprise-level access control systems. <strong>Note:</strong> This is an internal school system and not publicly accessible.
        Click the project image to watch a demonstration video.`,
     },
+
+    {
+      img: staffImg.src,
+      name: "Staff Call Dashboard",
+      type: "REACT.JS, MATERIAL-UI & TailwindCSS",
+      link: "https://luxury-stroopwafel-a358b3.netlify.app/",
+      description: `Staff Call Dashboard is a real-time call monitoring and management system built with 
+      React.js, featuring live WebSocket connections for instant call updates. The application provides
+       staff members with a comprehensive interface to track incoming calls, monitor call duration,
+        view caller information, and manage call statuses (answered/missed/ongoing).
+         Built with a modern tech stack combining Material-UI components and Tailwind CSS for styling, 
+         the dashboard offers an intuitive and responsive user experience across devices. 
+                   Key features include dynamic call queue visualization, caller information display with 
+          history tracking, call duration timers, and an efficient filtering system for viewing 
+          answered versus unanswered calls. The application also includes call analytics and reporting
+           capabilities, helping organizations optimize their call handling workflows.
+            This project demonstrates my ability to build production-ready real-time applications 
+            with complex state management, responsive UI design focused on operational efficiency.`,
+    },
+    
     {
       img: tmt.src,
       name: "Toy Market Trading",
@@ -140,7 +162,7 @@ export default function Home() {
         </div>
       </div>
       <section className="my-20 lg:mx-auto lg:px-60 px-3">
-        <div className="lg:flex lg:flex-row justify-center gap-1">
+        <div className="lg:flex lg:flex-row justify-center gap-3">
           {projects.slice(0, 3).map((item, index) => {
             return (
               <Project
@@ -154,8 +176,8 @@ export default function Home() {
             );
           })}
         </div>
-        <div className="lg:flex lg:flex-row justify-center gap-2 mt-8">
-          {projects.slice(3, 6).map((item, index) => {
+        <div className="lg:flex lg:flex-row justify-center gap-1 mt-8 px-10">
+          {projects.slice(3, 7).map((item, index) => {
             return (
               <Project
                 key={index}
