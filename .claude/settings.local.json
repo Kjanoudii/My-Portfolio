@@ -3,7 +3,11 @@
     "allow": [
       "Bash(Get-ChildItem -Path \"c:\\\\projects\\\\my-portfolio-local\" -Force)",
       "Bash(Select-Object Name, PSIsContainer)",
-      "Bash(Format-Table -AutoSize)"
+      "Bash(Format-Table -AutoSize)",
+      "Bash(git pull *)",
+      "PowerShell(git add src/app/page.tsx src/components/Profile.tsx)",
+      "PowerShell(git commit -m \"Resolve merge conflicts: add DSRPT project, keep BSK Portfolio, fix row layout\")",
+      "PowerShell(git push)"
     ]
   }
 }
