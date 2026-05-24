@@ -11,6 +11,7 @@ import reactimg from "../assets/images/reactChat.png";
 import giftImg from "../assets/images/GiftingOasis.png";
 import ehcoPost from "../assets/images/echoPost.png";
 import aora from "../assets/images/aora.jpg";
+import dsrpt from "../assets/images/dsrpt-website.png";
 
 import checklistImg from "../assets/images/check-list.png";
 import ContactSection from "@/components/ContactSection";
@@ -27,6 +28,13 @@ interface ProjectProps {
 }
 export default function Home() {
   const projects: ProjectProps[] = [
+    {
+      img: dsrpt.src,
+      name: "DSRPT Kuwait",
+      type: "LARAVEL, FILAMENT, BLADE & TAILWIND CSS",
+      link: "https://dsrpt.com.au/",
+      description: `DSRPT is a full-stack website and CMS built for Kuwait's leading digital marketing agency. It features a custom Filament admin panel, dynamic blog articles with markdown rendering, table of contents, read time, related posts, and tag filtering. The CMS manages blog posts, authors, case studies, team members, services, contact submissions, and newsletter subscribers. Additional features include a dynamic sitemap, JSON-LD structured data, Open Graph tags, and Google Maps integration. Built with Tailwind CSS 4, a custom design token system, and Montserrat typography for a consistent, responsive experience.`,
+    },
     {
       img: ehcoPost.src,
       name: "EchoPost",
@@ -164,6 +172,20 @@ export default function Home() {
         </div>
         <div className="lg:flex lg:flex-row justify-center gap-2 mt-8">
           {projects.slice(3, 6).map((item, index) => {
+            return (
+              <Project
+                key={index}
+                img={item.img}
+                name={item.name}
+                type={item.type}
+                link={item.link}
+                description={item.description}
+              />
+            );
+          })}
+        </div>
+        <div className="lg:flex lg:flex-row justify-center gap-2 mt-8">
+          {projects.slice(6).map((item, index) => {
             return (
               <Project
                 key={index}

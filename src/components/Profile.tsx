@@ -40,7 +40,7 @@ export default function Profile() {
           </h3>
           <p className="text-slate-500 text-lg max-w-xl">
             Hi, Im Khaled Eljanoudi. A passionate Front-End React <br />
-            Developer based in Beirut, Lebanon
+            Developer based in Kuwait
             <FontAwesomeIcon
               icon={faMapPin}
               className="inline w-3"

@@ -12,11 +12,11 @@ export default function About() {
       <div className="container grid lg:grid-cols-12 grid-cols-1 items-center gap-[10px]">
         <div className="lg:col-span-5">
           <Image
-            className="rounded-md"
+            className="rounded-md w-full h-auto"
             src={img}
             alt=""
-            height={380}
-            width={380}
+            height={600}
+            width={600}
           />
         </div>
 
@@ -30,7 +30,7 @@ export default function About() {
               >
                 <div className="p-6 py-8 ">
                   <h6 className="font-bold uppercase mb-5 text-indigo-600">
-                   A dedicated Front-End Developer based in Beirut, Lebanon.
+                   A dedicated Front-End Developer based in Kuwait.
                   </h6>
 
                   <div className="flex mb-5 text-base text-slate-500 leading-10">
