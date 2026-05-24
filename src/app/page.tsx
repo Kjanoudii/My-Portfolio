@@ -9,7 +9,9 @@ import tmt from "../assets/images/tmt.png";
 import enjaz from "../assets/images/enjaz.png";
 import reactimg from "../assets/images/reactChat.png";
 import giftImg from "../assets/images/GiftingOasis.png";
+import staffImg from "../assets/images/staff-call-img.png";
 import ehcoPost from "../assets/images/echoPost.png";
+import portfolio from "../assets/images/portfolio.png";
 import aora from "../assets/images/aora.jpg";
 import dsrpt from "../assets/images/dsrpt-website.png";
 
@@ -36,25 +38,39 @@ export default function Home() {
       description: `DSRPT is a full-stack website and CMS built for Kuwait's leading digital marketing agency. It features a custom Filament admin panel, dynamic blog articles with markdown rendering, table of contents, read time, related posts, and tag filtering. The CMS manages blog posts, authors, case studies, team members, services, contact submissions, and newsletter subscribers. Additional features include a dynamic sitemap, JSON-LD structured data, Open Graph tags, and Google Maps integration. Built with Tailwind CSS 4, a custom design token system, and Montserrat typography for a consistent, responsive experience.`,
     },
     {
-      img: ehcoPost.src,
-      name: "EchoPost",
-      type: "NEXT.JS, TYPESCRIPT, NODEJS & MYSQL",
-      link: "https://echo-post-k.vercel.app/",
-      description: `EchoPost is a responsive, mobile friendly full-stack web application designed 
-  to mimic the core functionalities of social platforms like Twitter/X. 
-  The project is divided into two separate repositories: one for the frontend and 
-  another for the backend. The frontend leverages Next.js, TypeScript, and 
-  TailwindCSS, while the backend is built using ExpressJS, Node.js, and MySQL. 
-  Users can register, log in, create posts, and like other users' posts.
-   With JWT for authentication, EchoPost ensures secures user sessions and 
-   data integrity. This project showcases my ability to develop and manage 
-   complex web applications across different stacks, emphasizing frontend, backend and authentication expertise.`,
+      img: portfolio.src,
+      name: "BSK Student Portfolio",
+      type: "NEXT.JS, EXPRESS.JS, MONGODB & MINIO",
+      link: "https://youtu.be/T6b_vB9KGtQ",
+      description: `BSK Student Portfolio is a comprehensive full-stack web application built for The British School of Kuwait, enabling students to showcase their academic experiences, achievements, and extracurricular activities. Built with Next.js, React, and MongoDB, the platform features a robust role-based access control (RBAC) system that manages different user permissions for students, teachers, and administrators. The application implements secure file upload functionality using MinIO for object storage, allowing students to attach documents, images, and media to their portfolio entries. With advanced MongoDB aggregation pipelines for efficient data querying and filtering, JWT-based authentication for secure user sessions, and a responsive design for seamless mobile and desktop experiences,
+      the platform serves as a centralized hub for student achievement tracking. This project demonstrates my expertise in building scalable educational platforms with complex data relationships, secure file management, database optimization, and enterprise-level access control systems. <strong>Note:</strong> This is an internal school system and not publicly accessible.
+       Click the project image to watch a demonstration video.`,
     },
+
+    {
+      img: staffImg.src,
+      name: "Staff Call Dashboard",
+      type: "REACT.JS, MATERIAL-UI & TailwindCSS",
+      link: "https://luxury-stroopwafel-a358b3.netlify.app/",
+      description: `Staff Call Dashboard is a real-time call monitoring and management system built with 
+      React.js, featuring live WebSocket connections for instant call updates. The application provides
+       staff members with a comprehensive interface to track incoming calls, monitor call duration,
+        view caller information, and manage call statuses (answered/missed/ongoing).
+         Built with a modern tech stack combining Material-UI components and Tailwind CSS for styling, 
+         the dashboard offers an intuitive and responsive user experience across devices. 
+                   Key features include dynamic call queue visualization, caller information display with 
+          history tracking, call duration timers, and an efficient filtering system for viewing 
+          answered versus unanswered calls. The application also includes call analytics and reporting
+           capabilities, helping organizations optimize their call handling workflows.
+            This project demonstrates my ability to build production-ready real-time applications 
+            with complex state management, responsive UI design focused on operational efficiency.`,
+    },
+    
     {
       img: tmt.src,
       name: "Toy Market Trading",
       type: "NEXT.JS & STRAPI API",
-      link: "https://toy-marketing.netlify.app/",
+      link: "https://toymarkettrading.com/",
       description: `ToyMarket Trading is a sleek and efficient website that demonstrates the power of Next.js and the versatility of Tailwind CSS. With clean code 
       and simple design, this project showcases my proficiency in web development.
       Through ToyMarket Trading, users experience seamless navigation and responsiveness across devices.
@@ -91,14 +107,12 @@ export default function Home() {
       img: aora.src,
       name: "AORA-MEMES",
       type: "REACT-NATIVE & APPWRITE",
-      link: "https://expo.dev/preview/update?message=fix&updateRuntimeVersion=1.0.0&createdAt=2024-06-17T23%3A38%3A52.152Z&slug=exp&projectId=ddf4f5eb-8063-4c5d-a764-59edae19b8ec&group=42d579a0-eee7-4c00-bc23-56b2d360a4c9",
+      link: "https://www.linkedin.com/posts/khaled-janoudi-075987291_react-reactnative-mobiledevelopment-activity-7208925762593173505-i-2f?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEbNM5kBlBMesUPaAGsB7r7tOoSMBRTXUG8",
       description: `AORA-MEMES is a React Native Expo application that uses Appwrite as 
       the backend. Users can log in, view short videos and meme videos, and post/create 
       their own short videos. This project demonstrates my ability to develop mobile 
       applications with dynamic content and u ser interactions using modern technologies.
-     <br/>
-      Note: To view this app, you must install the 
-      expo go app on your phone (appstore or googleplay) and scan the preview QR-code.
+     
       `,
     },
         {
@@ -156,7 +170,7 @@ export default function Home() {
         </div>
       </div>
       <section className="my-20 lg:mx-auto lg:px-60 px-3">
-        <div className="lg:flex lg:flex-row justify-center gap-1">
+        <div className="lg:flex lg:flex-row justify-center gap-3">
           {projects.slice(0, 3).map((item, index) => {
             return (
               <Project
@@ -170,7 +184,7 @@ export default function Home() {
             );
           })}
         </div>
-        <div className="lg:flex lg:flex-row justify-center gap-2 mt-8">
+        <div className="lg:flex lg:flex-row justify-center gap-1 mt-8 px-10">
           {projects.slice(3, 6).map((item, index) => {
             return (
               <Project

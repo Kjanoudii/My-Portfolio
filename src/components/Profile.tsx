@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import myPic from "../assets/images/me-2.jpeg";
+import myPic from "../assets/images/img.jpg";
 import { BsCheckCircle } from "react-icons/bs";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -36,10 +36,10 @@ export default function Profile() {
             className="mb-6 md:text-5xl text-3xl md:leading-normal 
           leading-normal font-bold"
           >
-            Front-End React <br /> Developer
+            Full Stack <br /> Developer
           </h3>
           <p className="text-slate-500 text-lg max-w-xl">
-            Hi, Im Khaled Eljanoudi. A passionate Front-End React <br />
+            Hi, Im Khaled Eljanoudi. A passionate Full Stack <br />
             Developer based in Kuwait
             <FontAwesomeIcon
               icon={faMapPin}
