@@ -32,12 +32,12 @@ export default function Profile() {
       </div>
       <div className="lg:col-span-7 ">
         <div className="lg:ms-5 ms-0">
-          <h3
+          <h1
             className="mb-6 md:text-5xl text-3xl md:leading-normal 
           leading-normal font-bold"
           >
             Full Stack <br /> Developer
-          </h3>
+          </h1>
           <p className="text-slate-500 text-lg max-w-xl">
             Hi, Im Khaled Eljanoudi. A passionate Full Stack <br />
             Developer based in Kuwait

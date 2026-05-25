@@ -30,9 +30,9 @@ export default function About() {
                bg-white dark:bg-slate-900"
               >
                 <div className="p-6 py-8 ">
-                  <h6 className="font-bold uppercase mb-5 text-indigo-600">
+                  <h2 className="font-bold uppercase mb-5 text-indigo-600">
                     A dedicated Software Developer based in Kuwait.
-                  </h6>
+                  </h2>
 
                   <div className="flex mb-5 text-base text-slate-500 leading-10">
                     Hello! I'm Khaled Eljanoudi, a full-stack software developer
