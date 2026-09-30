@@ -99,18 +99,20 @@ export default function Home() {
           deliver visually appealing and user-friendly web applications.`,
     },
 
+    /* hidden
     {
       img: reactimg.src,
       name: "Chat Web-App",
       type: "REACT.JS & FIREBASE",
       link: "https://chat-web-app15621.netlify.app/",
       description: `ChatApp is a dynamic and interactive
-       web application that highlights the capabilities of React.js and firebase 
+       web application that highlights the capabilities of React.js and firebase
        in creating engaging user experiences. This project serves as a showcase of
         my expertise in web development using firebase. ChatApp allows users to engage in live chat
-         conversations, sending of pictures , recording voice messages, demonstrating real-time updates, cloud storing and instant message delivery. With its sleek design and intuitive user interface, this project 
+         conversations, sending of pictures , recording voice messages, demonstrating real-time updates, cloud storing and instant message delivery. With its sleek design and intuitive user interface, this project
         exemplifies my ability to create immersive web experiences using React.js.`,
     },
+    end hidden */
     {
       img: aora.src,
       name: "AORA-MEMES",
@@ -142,20 +144,22 @@ export default function Home() {
     `,
         },
 
+    /* hidden
     {
       img: checklistImg.src,
       name: "Checklist",
       type: "REACT.JS & FIREBASE",
       link: "https://check-list-app5484.netlify.app/",
       description: `"React Checklist" is a straightforward web application designed for task management. With its intuitive interface and simple design, this project streamlines the process of creating and organizing lists using React.js and Firestore database.
-                Users can create new lists and add items to each list, facilitating efficient task tracking and management. 
+                Users can create new lists and add items to each list, facilitating efficient task tracking and management.
          Utilizing Firestore database integration, "React Checklist" provides real-time synchronization of data, enabling users to access their lists and items across multiple devices seamlessly. This ensures that users can stay organized and productive, whether they are at home, work, or on the go.
-               By showcasing "React Checklist", I aim to highlight my proficiency in leveraging React.js and Firestore to develop web applications. 
+               By showcasing "React Checklist", I aim to highlight my proficiency in leveraging React.js and Firestore to develop web applications.
 
 
 
 `,
     },
+    end hidden */
   ];
   return (
     <div className="mx-auto text-gray-800 h-full">
