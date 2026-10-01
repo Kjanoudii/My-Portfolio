@@ -35,7 +35,7 @@ export default function Home() {
       img: sundar.src,
       name: "Sundar Jewelry",
       type: "NEXT.JS, PRISMA, POSTGRESQL & TAILWIND CSS",
-      link: undefined,
+      link: "https://sundar.dsrpt.cloud/",
       description: `Sundar Jewelry is a full-stack e-commerce and operations platform built from the ground up for a fine jewelry brand in Kuwait. The storefront features a product catalogue with collections, categories, and variant selection, integrated with a third-party payment gateway for end-to-end online checkout. The admin platform includes three distinct order entry surfaces (in-store POS, custom order form, and online checkout) feeding into a unified order management dashboard with status tracking, down payment support, and fixed/percentage discount handling. Every order automatically generates a professional PDF invoice using React PDF, with itemised breakdowns, discount and voucher lines, per-item gold specifications, and a configurable disclaimer system backed by a global site settings store. Order confirmation emails with attached PDF invoices are dispatched automatically on order creation. The project demonstrates my ability to design and deliver a production-ready full-stack application covering both the customer experience and a fully custom operational backend, end-to-end.`,
     },
     {
